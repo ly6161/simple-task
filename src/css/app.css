@@ -1,177 +1,170 @@
 /* Your app custom styles here */
 
-                .circle-cropped-img{
-                    background-color: #000000;
-                    background-image:url('../static/images/tower.jpg');
-                    width:40px;
-                    height:40px;
-                    background-size: cover;
+    .circle-cropped-img{
+        background-color: #000000;
+        background-image:url('../static/images/tower.jpg');
+        width:40px;
+        height:40px;
+        background-size: cover;
 
-                    /*center the image vertically and horizontally*/
-                    background-position: top center;
+        /*center the image vertically and horizontally*/
+        background-position: top center;
 
-                    border-radius:50%;
-                }
-                
-                /*
-                 *  Override default styles of framework7 classes .navbar .title .navbar-bg
-                 */
-                
-                /*.navbar .title{
-                    text-align:center;
-                    width:100%;
-                }*/
+        border-radius:50%;
+    }
+    
+    /*
+        *  Override default styles of framework7 classes .navbar .title .navbar-bg
+        */
+    
+    /*.navbar .title{
+        text-align:center;
+        width:100%;
+    }*/
 
-                .navbar-bg{
-                    background-color: #ef4700;
-                }
+    .navbar-bg{
+        background-color: #ef4700;
+    }
 
-                .full-width{
-                    width:100%;
-                }
-                /*
-                * Margin and padding helpers
-                */
-                .margin-top-20-n{
-                    margin-top: -20px;
-                }
+    .full-width{
+        width:100%;
+    }
+    /*
+    * Margin and padding helpers
+    */
+    .margin-top-20-n{
+        margin-top: -20px;
+    }
 
-                .margin-bottom-20-n{
-                    margin-bottom: -20px;
-                }
+    .margin-bottom-20-n{
+        margin-bottom: -20px;
+    }
 
-                .margin-left-10-n{
-                    margin-left:-10px;
-                }
+    .margin-left-10-n{
+        margin-left:-10px;
+    }
 
-                .margin-right-10-n{
-                    margin-right:-10px;
-                }
+    .margin-right-10-n{
+        margin-right:-10px;
+    }
 
-                .margin-right-25{
-                    margin-right:25px;
-                }
+    .margin-right-25{
+        margin-right:25px;
+    }
 
-                .margin-top-5{
-                    margin-top:5px;
-                }
+    .margin-top-5{
+        margin-top:5px;
+    }
 
-                .margin-top-20{
-                    margin-top:20px;
-                }
+    .margin-top-20{
+        margin-top:20px;
+    }
 
-                .center-me-horizontal{
-                    margin-left:auto;
-                    margin-right:auto;
-                }
+    .center-me-horizontal{
+        margin-left:auto;
+        margin-right:auto;
+    }
 
-                .pd-top-10{
-                    padding-top:10px;
-                }
+    .pd-top-10{
+        padding-top:10px;
+    }
 
-                .pd-bottom-10{
-                    padding-bottom:10px;
-                }
+    .pd-bottom-10{
+        padding-bottom:10px;
+    }
 
-                .pd-left-5{
-                    padding-left:5px;
-                }
+    .pd-left-5{
+        padding-left:5px;
+    }
 
-                .pd-right-5{
-                    padding-right:5px;
-                }
+    .pd-right-5{
+        padding-right:5px;
+    }
 
-                .pd-right-50{
-                    padding-right:50px;
-                }
+    .pd-right-50{
+        padding-right:50px;
+    }
 
-                .box-sizing-border-box{
-                    box-sizing: border-box;
-                }
+    .box-sizing-border-box{
+        box-sizing: border-box;
+    }
 
-                .divider{
-                    border-bottom:1px solid #666666;
-                    width:100%;
-                }
+    .divider{
+        border-bottom:1px solid #666666;
+        width:100%;
+    }
 
-                /*
-                 *Override default button styles, courtesy of https://css-tricks.com/overriding-default-button-styles/
-                 */
-                .button-empty {
-                    display: inline-block;
-                    border: none;
-                    text-decoration: none;
-                    white-space: normal;
-                    margin: 0;
-                    cursor: pointer;
-                    text-align: center;
-                    transition: background 250ms ease-in-out, 
-                                transform 150ms ease;
-                    -webkit-appearance: none;
-                    -moz-appearance: none;
-                    }
+    /*
+        *Override default button styles, courtesy of https://css-tricks.com/overriding-default-button-styles/
+        */
+    .button-empty {
+        display: inline-block;
+        border: none;
+        text-decoration: none;
+        white-space: normal;
+        margin: 0;
+        cursor: pointer;
+        text-align: center;
+        transition: background 250ms ease-in-out, 
+                    transform 150ms ease;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        }
 
-                .button-neutral{
-                    max-width:300px;
-                    padding: 0.5em;
-                    font-family:Arial, Helvetica, sans-serif;
-                    font-size:0.95em;
-                    background: #ffffff;
-                    color: #000000;
-                    border-radius:10px;
-                    border: 1px solid #ababab;
-                }
-                
-                .button-neutral.active{
-                    display:flex;
-                    align-items: center;
-                    justify-content: center;
-                    max-width:300px;
-                    padding: 0.5em;
-                    font-family:Arial, Helvetica, sans-serif;
-                    font-size:0.95em;
-                    background: #315c82;
-                    color: #FFFFFF;
-                    border-radius:10px;
-                    border: 1px solid #ababab;
-                    box-sizing: border-box; 
-                }
+    .button-neutral{
+        max-width:300px;
+        padding: 0.5em;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:0.95em;
+        background: #ffffff;
+        color: #000000;
+        border-radius:10px;
+        border: 1px solid #ababab;
+    }
+    
+    .button-neutral.active{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        background: #315c82;
+        color: #FFFFFF;
+    }
 
-                .button-neutral.active:before{
-                    content:"\2714";
-                    margin-right:2px;
-                    font-size: 1.5em;
-                    line-height:0.75em;
-                }
+    .button-neutral.active:before{
+        content:"\2714";
+        margin-right:2px;
+        font-size: 1.5em;
+        line-height:0.75em;
+    }
 
-                    /*
-                     *Technique courtesy of https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle
-                     */
-                div.line-at-sides-title{
-                    border-bottom:1px solid #666666;
-                    line-height:0.1em;
-                    width:100%;
-                    text-align:center;
-                }
+        /*
+            *Technique courtesy of https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle
+            */
+    div.line-at-sides-title{
+        border-bottom:1px solid #666666;
+        line-height:0.1em;
+        width:100%;
+        text-align:center;
+    }
 
-                /*
-                *Added child combinator to make the usage clearer
-                */
-                div.line-at-sides-title>span{
-                    color:#585555;
-                    font-weight:bold;background:#FFFFFF;
-                    font-size:1.1em;
-                    padding-left:20px;
-                    padding-right:20px;
-                }
-                
-                .text-area-outlined-rounded{
-                    border-radius:10px;
-                    border:1px solid #ababab;
-                    font-family:Arial, Helvetica, sans-serif;
-                    font-style:italic;
-                    font-size:0.95em;
-                    width:100%;
-                    columns: #000000;
-                    padding:10px;
-                }
+    /*
+    *Added child combinator to make the usage clearer
+    */
+    div.line-at-sides-title>span{
+        color:#585555;
+        font-weight:bold;background:#FFFFFF;
+        font-size:1.1em;
+        padding-left:20px;
+        padding-right:20px;
+    }
+    
+    .text-area-outlined-rounded{
+        border-radius:10px;
+        border:1px solid #ababab;
+        font-family:Arial, Helvetica, sans-serif;
+        font-style:italic;
+        font-size:0.95em;
+        width:100%;
+        columns: #000000;
+        padding:10px;
+    }
