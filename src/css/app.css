@@ -16,15 +16,19 @@
                 /*
                  *  Override default styles of framework7 classes .navbar .title .navbar-bg
                  */
-                .navbar .title{
+                
+                /*.navbar .title{
                     text-align:center;
                     width:100%;
-                }
+                }*/
 
                 .navbar-bg{
                     background-color: #ef4700;
                 }
 
+                .full-width{
+                    width:100%;
+                }
                 /*
                 * Margin and padding helpers
                 */
