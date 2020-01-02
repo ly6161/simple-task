@@ -1,5 +1,6 @@
 /* Your app custom styles here */
 @import url("tachyons-4.8.0/src/_font-family.css");
+@import url("tachyons-4.8.0/src/_font-weight.css");
     .circle-cropped-img{
         background-color: #000000;
         background-image:url('../static/images/tower.jpg');
