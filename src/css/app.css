@@ -1,6 +1,12 @@
 /* Your app custom styles here */
 @import url("tachyons-4.8.0/src/_font-family.css");
 @import url("tachyons-4.8.0/src/_font-weight.css");
+
+    /*Override Framework7 variables*/
+    :root {
+        --f7-navbar-title-text-align: center;
+    }
+
     .circle-cropped-img{
         background-color: #000000;
         background-image:url('../static/images/tower.jpg');
@@ -19,9 +25,12 @@
         background-color: #ef4700;
     }
 
+    .navbar-custom{
+        max-height:47px;
+    }
+    
     .navbar-title-custom{
         color:white;
-        text-align:center;
         width:100%;
         padding-right:50px;
     }
