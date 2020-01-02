@@ -48,6 +48,10 @@
         margin-right:-10px;
     }
 
+    .mg-top-15-n{
+        margin-top:15px;
+    }
+
     .mg-right-25{
         margin-right:25px;
     }
@@ -58,10 +62,6 @@
 
     .mg-top-20{
         margin-top:20px;
-    }
-
-    .mg-top-15{
-        margin-top:15px;
     }
 
     .center-me-horizontal{
