@@ -5,6 +5,8 @@
     /*Override Framework7 variables*/
     :root {
         --f7-navbar-title-text-align: center;
+        --f7-tabbar-link-active-color:#ef4700;
+        --f7-theme-color:#ef4700;
     }
 
     .circle-cropped-img{
