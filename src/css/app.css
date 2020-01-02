@@ -32,31 +32,31 @@
     /*
     * Margin and padding helpers
     */
-    .margin-top-20-n{
+    .mg-top-20-n{
         margin-top: -20px;
     }
 
-    .margin-bottom-20-n{
+    .mg-bottom-20-n{
         margin-bottom: -20px;
     }
 
-    .margin-left-10-n{
+    .mg-left-10-n{
         margin-left:-10px;
     }
 
-    .margin-right-10-n{
+    .mg-right-10-n{
         margin-right:-10px;
     }
 
-    .margin-right-25{
+    .mg-right-25{
         margin-right:25px;
     }
 
-    .margin-top-5{
+    .mg-top-5{
         margin-top:5px;
     }
 
-    .margin-top-20{
+    .mg-top-20{
         margin-top:20px;
     }
 
