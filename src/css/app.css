@@ -33,6 +33,11 @@
     /*
     * Margin and padding helpers
     */
+
+    .mg-bottom-5-n{
+        margin-bottom: -5px;
+    }
+
     .mg-top-20-n{
         margin-top: -20px;
     }
@@ -71,6 +76,10 @@
 
     .mg-top-5{
         margin-top:5px;
+    }
+
+    .mg-top-10{
+        margin-top:10px;
     }
 
     .mg-top-20{
