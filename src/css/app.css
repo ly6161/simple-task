@@ -14,21 +14,16 @@
         border-radius:50%;
     }
     
-    /*
-        *  Override default styles of framework7 classes .navbar .title .navbar-bg
-        */
-    
-    /*.navbar .title{
-        text-align:center;
-        width:100%;
-    }*/
-
+    /*Change Framework7 navbar-bg class color property*/
     .navbar-bg{
         background-color: #ef4700;
     }
 
-    .full-width{
+    .navbar-title-custom{
+        color:white;
+        text-align:center;
         width:100%;
+        padding-right:50px;
     }
     /*
     * Margin and padding helpers
@@ -197,4 +192,70 @@
         width:100%;
         columns: #000000;
         padding:10px;
+    }
+
+    .link-to-more{
+        color:#275b9d;
+        text-decoration: underline;
+        text-align:center;
+        font-weight:bold;
+    }
+
+    .location-container{
+        display:flex;
+        align-items:center;
+    }
+
+    .location-name-header{
+        font-size:1.1em;
+        color:#585555;
+        font-weight: bold;
+        margin-bottom:-5px;
+    }
+
+    .location-address{
+        color:#585555;
+        font-size:0.8em;
+    }
+
+    /*Single use elements below*/
+
+    #info-med-abc-tower{
+        font-size:1.1em;
+        color:#585555;
+    }
+
+    #warning-med-fire{
+        font-size:150%;
+        color:#e34234;
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    #warning-big-alert{
+        font-size:450%;
+        color:#e34234;
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    #info-med-proceed-to-wip{
+        background-color:#000000;
+        color:#FFFFFF;
+        font-size:1.5em;
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        box-sizing:border-box;
+    }
+    
+    #info-med-prepare-area-for-potential{
+        min-height:68px;
+        background-color:#e34234;
+        color:#FFFFFF;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        box-sizing:border-box;
     }
