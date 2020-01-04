@@ -1,6 +1,6 @@
 /* Your app custom styles here */
-@import url("tachyons-4.8.0/src/_font-family.css");
-@import url("tachyons-4.8.0/src/_font-weight.css");
+
+@import url("margin-and-padding-helpers.css");
 
     /*Override Framework7 variables*/
     :root {
@@ -36,89 +36,10 @@
         width:100%;
         padding-right:50px;
     }
-    /*
-    * Margin and padding helpers
-    */
-
-    .mg-bottom-5-n{
-        margin-bottom: -5px;
-    }
-
-    .mg-top-20-n{
-        margin-top: -20px;
-    }
-
-    .mg-top-25-n{
-        margin-top: -25px;
-    }
-
-    .mg-bottom-10-n{
-        margin-bottom: -10px;
-    }
-
-    .mg-bottom-20-n{
-        margin-bottom: -20px;
-    }
-
-    .mg-bottom-25-n{
-        margin-bottom:-25px;
-    }
-
-    .mg-left-10-n{
-        margin-left:-10px;
-    }
-
-    .mg-right-10-n{
-        margin-right:-10px;
-    }
-
-    .mg-top-15-n{
-        margin-top:-15px;
-    }
-
-    .mg-right-25{
-        margin-right:25px;
-    }
-
-    .mg-top-5{
-        margin-top:5px;
-    }
-
-    .mg-top-10{
-        margin-top:10px;
-    }
-
-    .mg-top-20{
-        margin-top:20px;
-    }
 
     .center-me-horizontal{
         margin-left:auto;
         margin-right:auto;
-    }
-
-    .pd-5{
-        padding:5px;
-    }
-
-    .pd-top-10{
-        padding-top:10px;
-    }
-
-    .pd-bottom-10{
-        padding-bottom:10px;
-    }
-
-    .pd-left-5{
-        padding-left:5px;
-    }
-
-    .pd-right-5{
-        padding-right:5px;
-    }
-
-    .pd-right-50{
-        padding-right:50px;
     }
 
     .box-sizing-border-box{
