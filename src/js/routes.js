@@ -12,7 +12,7 @@ import FireAlertPage from '../pages/fire-alert.f7.html';
 var routes = [
   {
     path: '/',
-    component: HomePage,
+    component: FireAlertPage,
   },
   {
     path: '/about/',
